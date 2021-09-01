@@ -26,5 +26,7 @@ const saFunc = function() {
   }
 }
 
-window.addEventListener('load', saFunc);
-window.addEventListener('scroll', saFunc);
+AOS.init({
+  easing: 'ease-out-back',
+  duration: 1000
+});
